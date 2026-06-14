@@ -76,7 +76,7 @@ newman run <collection-file>.postman_collection.json -e <environment-file>.postm
 
 **Run with HTML report:**
 ```bash
-newman run <collection-file>.postman_collection.json -e <environment-file>.postman_environment.json -r cli,htmlextra
+newman run Nasif_Sadnan_SQA_Restful_Booker_API_Testing.postman_collection.json -e Nasif_Sadnan_SQA_Restful_Booker_API_Testing.postman_environment.json -r cli,htmlextra
 ```
 
 The generated report will be saved in the `newman/` folder.
@@ -104,10 +104,20 @@ All 13 assertions passed across the full booking lifecycle (create → read → 
 ├── newman/                       # Generated HTML test reports
 └── README.md
 ```
+## 📊 Newman Report Summary:
+<img width="467" height="682" alt="image" src="https://github.com/user-attachments/assets/52f85af9-241f-4bc1-a035-1bb98d64972b" /> </br>
+<img width="457" height="322" alt="image" src="https://github.com/user-attachments/assets/27cbf299-9126-4770-957f-9f05ad8ffa0c" /> </br>
+<img width="470" height="137" alt="image" src="https://github.com/user-attachments/assets/f272cdf3-1ee0-4ef4-b6ce-515e9372957a" /> </br>
+<img width="467" height="137" alt="image" src="https://github.com/user-attachments/assets/d5ba67ca-30c5-463d-bb24-f4d74a251a96" /> </br>
+
+
+
+
+
 
 ## 👤 Author
 
-**Nasif Sadnan**
+**MD. Nasif Sadnan Chowdhury**
 Software Quality Assurance | Full Stack SQA
 
 ## 📄 License
