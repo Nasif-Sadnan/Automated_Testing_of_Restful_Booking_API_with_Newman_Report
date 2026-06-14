@@ -1,0 +1,8 @@
+CMD Show
+newman run Nasif_Sadnan_SQA_Restful_Booker_API_Testing.postman_collection.json -e Nasif_Sadnan_SQA_Restful_Booker_API_Testing.postman_environment.json
+
+NewMan HTML
+newman run Nasif_Sadnan_SQA_Restful_Booker_API_Testing.postman_collection.json -e Nasif_Sadnan_SQA_Restful_Booker_API_Testing.postman_environment.json -r cli,html
+
+NewMan HTML Extra
+newman run Nasif_Sadnan_SQA_Restful_Booker_API_Testing.postman_collection.json -e Nasif_Sadnan_SQA_Restful_Booker_API_Testing.postman_environment.json -r cli,htmlextra
